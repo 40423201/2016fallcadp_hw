@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>40423226個人網誌 (NFU-MDE104B)</title>
+    <title>40423201個人網誌</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -167,14 +167,14 @@ init_mathjax();
 </script>
 
 <link rel="canonical" href=".">
-        <meta name="author" content="40423226" />
+        <meta name="author" content="40423201" />
 
     <!-- Open Graph tags -->
-        <meta property="og:site_name" content="40423226個人網誌 (NFU-MDE104B)" />
+        <meta property="og:site_name" content="40423201個人網誌" />
         <meta property="og:type" content="website"/>
-        <meta property="og:title" content="40423226個人網誌 (NFU-MDE104B)"/>
+        <meta property="og:title" content="40423201個人網誌"/>
         <meta property="og:url" content="."/>
-        <meta property="og:description" content="40423226個人網誌 (NFU-MDE104B)"/>
+        <meta property="og:description" content="40423201個人網誌"/>
 
 
     <!-- Bootstrap -->
@@ -186,7 +186,7 @@ init_mathjax();
     <link rel="stylesheet" href="./theme/css/style.css" type="text/css"/>
 
         <link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
-              title="40423226個人網誌 (NFU-MDE104B) ATOM Feed"/>
+              title="40423201個人網誌 ATOM Feed"/>
 
 <script type="text/javascript" src="http://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shCore.js"></script>
 <script type="text/javascript" src="http://coursemdetw.github.io/project_site_files/files/syntaxhighlighter/shBrushJScript.js"></script>
@@ -248,7 +248,7 @@ init_mathjax();
                 <span class="icon-bar"></span>
             </button>
             <a href="./" class="navbar-brand">
-40423226個人網誌 (NFU-MDE104B)            </a>
+40423201個人網誌            </a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
@@ -278,193 +278,83 @@ init_mathjax();
         <div class="col-sm-9">
 
             <article>
-                <h2><a href="./20161104w8.html">20161104W8</a></h2>
-                <div class="summary"><h2><a href="http://pygroup-ag100.rhcloud.com">期中課程評量系統</a></h2>
-                    <a class="btn btn-default btn-xs" href="./20161104w8.html">more ...</a>
+                <h2><a href="./w7-shi-yong-trace-pointji-suan-lu-jing.html">w7 使用Trace Point計算路徑</a></h2>
+                <div class="summary"><iframe src="https://player.vimeo.com/video/199430179" width="640" height="361" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p><a href="https://vimeo.com/199430179">40423201</a> from <a href="https://vimeo.com/user45597735">40423201</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+<p><img src="./../40423201/40423201....png" width="800" /></p>
+                    <a class="btn btn-default btn-xs" href="./w7-shi-yong-trace-pointji-suan-lu-jing.html">more ...</a>
                 </div>
             </article>
             <hr/>
             <article>
-                <h2><a href="./20161028w7.html">20161028W7</a></h2>
-                <div class="summary"><h2>使用Trace Point計算路徑<h2>
-<iframe src="https://player.vimeo.com/video/190090265" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <h2><a href="./w6-dui-ying-shang-de-wen-ti.html">w6 對應上的問題</a></h2>
+                <div class="summary"><p>然而程式說找不到任何有關該名稱的文件資料,後來我們發現submodule內的設定並沒有也因此刪除,要刪除submodule的設定有兩個方法</p>
 
-<p>路徑圖</p>
-<a><img src="../data/image/Trace Point.PNG" width="800" />
+<h3>解決方法一</h3>
 
-<h2>解決子模組設定的問題</h2>
-<p>把以下多餘的子模組刪掉</p>
-<pre>
-[submodule "2016fallcadp_hw"]
-    path = 2016fallcadp_hw
-    url = https://github.com/40423226/2016fallcadp_hw.git
-    branch = gh-pages
-</pre>
-<p>更改後為以下的內容</p>
-<pre>
-[submodule "40423206"]
-    path = 40423206
-    url = https://github.com/40423206/2016fallcadp_hw.git
-    branch = gh-pages
-[submodule "40423224"]
-    path = 40423224
-    url = https://github.com/40423224/2016fallcadp_hw.git
-    branch = gh-pages
-[submodule "40423226"]
-    path = 40423226
-    url ...</pre></a></h2></h2>
-                    <a class="btn btn-default btn-xs" href="./20161028w7.html">more ...</a>
+<p>從2016fallcadp_bg3資料夾內的.gitmodules檔案,把該組員的子模組設定刪除後就可以存檔</p>
+
+<p>git submodule update --init --recursive,把各組員子模組的資料抓近來,記得要把2016fallcadp_bg3\.git\modules裡該組員的隱藏資料夾刪掉</p>
+
+<p>就可以重新執行指令,把組員的子模組加進來</p>
+
+<h3>解決方法二</h3>
+
+<p>直接依序執行以下的指令git submodule deinit asubmodule    
+git rm asubmodule</p>
+
+<p>但是在2016fallcadp_bg6\.git\modules裡的隱藏資料夾,還是需要自己動手刪除</p>
+                    <a class="btn btn-default btn-xs" href="./w6-dui-ying-shang-de-wen-ti.html">more ...</a>
                 </div>
             </article>
             <hr/>
             <article>
-                <h2><a href="./20161021w6.html">20161021W6</a></h2>
-                <div class="summary"><h2>解決子模組在對應上的問題</h2>
-
-<p>因為之前的2016fallcadp_hw倉儲少複製了一些東西,刪除舊的倉儲後,重新做一個和之前倉儲同名的2016fallcadp_hw倉儲,但是在小組倉儲所連結的子模組,抓不到新倉儲連結,所以我們需要重新加入一次組員倉儲的資料</p>
-
-<p>以為只要再輸入一次指令就可以讓程式抓最新的子模組近來</p>
-
-<pre>
-Y:\tmp\2016fallcadp_bg6>git submodule add -b gh-pages https://github.com/40423226/2016fallcadp_hw.git 40423226
-'40423226' already exists in the index
-</pre>
-
-<p>但是程式告訴我們40423226的子模組已經在裡面,所以在試著用git rm 40423226 -f 來刪除存放該子模組資料的資料夾,然後再git submodule add的一次組員倉儲的資料</p>
-
-<pre>
-Y:\tmp\2016fallcadp_bg6>git submodule add -b gh-pages https://github.com/40423226 ...</pre>
-                    <a class="btn btn-default btn-xs" href="./20161021w6.html">more ...</a>
+                <h2><a href="./w5-solvespace.html">w5 SolveSpace</a></h2>
+                <div class="summary"><p>SolveSpace
+老師介紹給我們的繪圖軟體
+今天有開出來玩玩看不過還不
+知道他的指令用起來卡卡的</p>
+                    <a class="btn btn-default btn-xs" href="./w5-solvespace.html">more ...</a>
                 </div>
             </article>
             <hr/>
             <article>
-                <h2><a href="./20161014w5.html">20161014W5</a></h2>
-                <div class="summary"><h2>初步認識SolveSpace<h2>
-<iframe src="https://player.vimeo.com/video/190087085" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    <a class="btn btn-default btn-xs" href="./20161014w5.html">more ...</a>
+                <h2><a href="./w4-jian-li-xiao-zu.html">w4 建立小組</a></h2>
+                <div class="summary"><h2>建立小組</h2>
+
+<p>組長要建立小組倉儲名稱為 2016fallcadp_bg3</p>
+                    <a class="btn btn-default btn-xs" href="./w4-jian-li-xiao-zu.html">more ...</a>
                 </div>
             </article>
             <hr/>
             <article>
-                <h2><a href="./20161007w4.html">20161007W4</a></h2>
-                <div class="summary"><h2>設定使用者資料,讓可攜程式更方便</h2>
-
-<iframe src="https://player.vimeo.com/video/190072906" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-<h2>用2016fallcadp_bg6的名稱,建立小組倉儲</h2>
-
-<iframe src="https://player.vimeo.com/video/190075715" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    <a class="btn btn-default btn-xs" href="./20161007w4.html">more ...</a>
+                <h2><a href="./w3-wang-lu-zhi-ling.html">w3 網路指令</a></h2>
+                <div class="summary"><p>上課時大家都在搶同一個網路所以網路一定慢所
+以老師今天教我們更改網路把網路更改成proxy後可以
+變得快很多</p>
+<p>更改的指令</p>
+<p>proxy.mde.tw 3128</p>
+                    <a class="btn btn-default btn-xs" href="./w3-wang-lu-zhi-ling.html">more ...</a>
                 </div>
             </article>
             <hr/>
             <article>
-                <h2><a href="./20160930w3.html">20160930W3</a></h2>
-                <div class="summary"><h2>複製網誌和簡報的設定檔到2016fallcadp_hw的倉儲</h2>
+                <h2><a href="./w1-zuo-ye.html">w1 作業</a></h2>
+                <div class="summary"><iframe src="https://player.vimeo.com/video/185818182" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-<iframe src="https://player.vimeo.com/video/190065696" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-<h2>更改2016fallcadp_hw的README.md檔案</h2>
-
-<pre>簡報: https://40423226.github.io/2016fallcadp_hw
-網址: https://40423226.github.io/2016fallcadp_hw/blog/</pre>
-
-<iframe src="https://player.vimeo.com/video/190066620" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-<h2>解決近端設定代理主機的問題</h2>
-
-<p>每次上課須執行以下指令</p>
-
-<pre>
-git config --global http.proxy http://proxy.mde.tw:3128
-git config --global https.proxy http://proxy.mde.tw:3128
-</pre>
-
-<p>輸入完之後出現了這個問題</p>
-
-<pre>
-warning: http.proxy has multiple values
-error: cannot overwrite multiple values ...</pre>
-                    <a class="btn btn-default btn-xs" href="./20160930w3.html">more ...</a>
+<p>心得:這一次的作業我拍好影片,但是我借用德威的VIMEO上傳的時候德威忘記登出所以就直接借用他的了,我們這組是一起討論後最後才成功畫出作品的,很喜歡團隊合作的感覺,蠻有成就感的雖然在畫的時候失敗了一次又一次哈哈</p>
+                    <a class="btn btn-default btn-xs" href="./w1-zuo-ye.html">more ...</a>
                 </div>
             </article>
             <hr/>
             <article>
-                <h2><a href="./20160923w2.html">20160923W2</a></h2>
-                <div class="summary"><h2>建立40423226.github.io名稱的倉儲</h2>
+                <h2><a href="./w2-2dzuo-ye-er.html">w2 2D作業二</a></h2>
+                <div class="summary"><iframe src="https://player.vimeo.com/video/190123005" width="640" height="306" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-<iframe src="https://player.vimeo.com/video/190063679" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-<h2>把分支的預設值改為gh-pages</h2>
-
-<iframe src="https://player.vimeo.com/video/190064489" width="640" height="347" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    <a class="btn btn-default btn-xs" href="./20160923w2.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="./20160916w1.html">20160916W1</a></h2>
-                <div class="summary"><h2>利用中秋連假複習之前學過的指令</h2>
-
-<p>切換到2016fallcadp_hw的分支</p>
-
-<pre>cd <u>分支名稱</u>
-(例如:cd 2016fallcadp_hw)</pre>
-
-<p>回到上一個分支</p>
-
-<pre>cd ..</pre>
-
-<p>會新建一個40423226的資料夾,並把遠端資料存在裡面</p>
-
-<pre>git clone <u>倉儲網址</u> <u>分支名稱</u>
-(例如:git clone https://github.com/40423226/2016fallcadp_hw.git 40423226)</pre>
-
-<p>檢查分支</p>
-
-<pre>git branch</pre>
-
-<p>建立一個gh-pages名稱的分支</p>
-
-<pre>git branch <u>分支名稱</u>
-(例如:git branch gh-pages)</pre>
-
-<p>切換到指定的gh-pages分支</p>
-
-<pre>git checkout <u>分支名稱</u>
-(例如:git checkout gh-pages)</pre>
-
-<pre>git add -A</pre>
-
-<pre>git commit -m ...</pre>
-                    <a class="btn btn-default btn-xs" href="./20160916w1.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="./other.html">Other</a></h2>
-                <div class="summary"><h2>使用環境設定</h2>
-
-<pre>
-git config --global http.proxy http://proxy.mde.tw:3128
-git config --global https.proxy http://proxy.mde.tw:3128
-git config --global user.email "40423226@gm.nfu.edu.tw"
-git config --global user.name "40423226"</pre>
-
-<h2>子模組</h2>
-
-<p>用40423226的名稱把https://github.com/40423226/2016fallcadp_hw的倉儲加入為子模組</p>
-
-<pre>git submodule add -b gh-pages <u>子模組網址</u> <u>子模組名稱 ...</u></pre>
-                    <a class="btn btn-default btn-xs" href="./other.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="./onshape.html">Onshape</a></h2>
-                <div class="summary"><h2><a href="https://www.onshape.com/">Onshape</a></h2>
-                    <a class="btn btn-default btn-xs" href="./onshape.html">more ...</a>
+<p>心得:在試用了老師所介紹的兩套軟體-SolveSpace 和 Onshape後 覺得Onshape較SolveSpace好用，而Onshape和我們常用的soildwork還滿像的 所以用起來比較習慣。SolveSpace沒一些快速指令，每執行完一項功能，就要重新點選，覺得比較麻煩一點!!</p>
+                    <a class="btn btn-default btn-xs" href="./w2-2dzuo-ye-er.html">more ...</a>
                 </div>
             </article>
             <hr/>
@@ -476,10 +366,7 @@ git config --global user.name "40423226"</pre>
                             href="./index.html">1</a></li>
                     <li class="active"><a
                             href="./index2.html">2</a></li>
-                    <li class=""><a
-                            href="./index3.html">3</a></li>
-                <li class="next"><a
-                        href="./index3.html">&raquo;</a></li>
+                <li class="next disabled"><a href="#">&raquo;</a></li>
         </ul>
         </div>
         <div class="col-sm-3" id="sidebar">
@@ -496,23 +383,23 @@ git config --global user.name "40423226"</pre>
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="./20170106w17.html">
-                            20170106W17
+                        <a href="./w16-onshape-lian-gan-zu-zhuang.html">
+                            w16 onshape 連桿組裝  :
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="./20161230w16.html">
-                            20161230W16
+                        <a href="./w15-si-lian-gan-yu-duo-lian-gan-yun-dong-mo-ni.html">
+                            w15 四連桿與多連桿運動模擬:
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="./20161223w15.html">
-                            20161223W15
+                        <a href="./tong-zheng-week7-w14.html">
+                            統整 week7 w14:
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="./20161216w14.html">
-                            20161216W14
+                        <a href="./solvespace-zu-he-tu-w12.html">
+                            Solvespace 組合圖 w12
                         </a>
                     </li>
                 </ul>
@@ -566,7 +453,7 @@ git config --global user.name "40423226"</pre>
    <div class="container">
       <hr>
       <div class="row">
-         <div class="col-xs-10">&copy; 2017 40423226
+         <div class="col-xs-10">&copy; 2017 40423201
             &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
             <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
             <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>

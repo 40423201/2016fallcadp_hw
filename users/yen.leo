@@ -212,9 +212,6 @@
 <v t="amd.20151215170031.1" a="E"><vh>@path ./../content</vh>
 <v t="amd.20160106093454.1" a="E"><vh>yen 所寫的網誌文章</vh>
 <v t="amd.20160727114506.1" a="E"><vh>201609</vh>
-<v t="leo.20161103210534.1"><vh>@edit other.md</vh></v>
-<v t="leo.20161124192958.1"><vh>@edit SolveSpace.md</vh></v>
-<v t="leo.20161124193849.1"><vh>@edit Onshape.md</vh></v>
 <v t="leo.20161028152823.1"><vh>@edit 20160916.md</vh></v>
 <v t="leo.20161028153027.1"><vh>@edit 20160923.md</vh></v>
 <v t="leo.20161028153031.1"><vh>@edit 20160930.md</vh></v>
@@ -228,7 +225,6 @@
 <v t="leo.20161124205906.1"><vh>@edit 20161125.md</vh></v>
 <v t="leo.20161209153338.1"><vh>@edit 20161202.md</vh></v>
 <v t="leo.20161209153340.1"><vh>@edit 20161209.md</vh></v>
-<v t="leo.20161217221415.1"><vh>@edit 20161216.md</vh></v>
 <v t="leo.20161230112544.1"><vh>@edit 20161223.md</vh></v>
 <v t="leo.20161230112546.1"><vh>@edit 20161230.md</vh></v>
 <v t="leo.20170112135759.1"><vh>@edit 20170106.md</vh></v>
