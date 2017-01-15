@@ -53,7 +53,7 @@
 &lt;p&gt;&lt;img src="./../40423201/40423201.png" width="800" /&gt;
 &lt;h2&gt;將所得到的點座標的.csv以Excel的畫圖，得到：&lt;/h2&gt;
 &lt;img src="./../40423201/40423201-2.png" width="800" /&gt;&lt;/p&gt;
-&lt;h2&gt;首先利用 Brython, 讀取資料目錄中的 40423201.csv 座標檔案, 然後以 splitlines() 及 split() 取出各點的 x 座標與 y 座標後, 將點連成路徑曲線如下:&lt;/h2&gt;
+&lt;p&gt;首先利用 Brython, 讀取40423201目錄中的 40423201.csv 座標檔案, 然後以 splitlines() 及 split() 取出各點的 x 座標與 y 座標後, 將點連成路徑曲線如下:&lt;/p&gt;
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
@@ -84,7 +84,7 @@ canvas = doc["fourbar"]
 container1 = doc['container1']
 ctx = canvas.getContext("2d")
 
-fourbar_data = open("./../w7/11117.csv").read()
+fourbar_data = open("./../40423201/40423201.csv").read()
 fourbar_list = fourbar_data.splitlines()
 #container1 &lt;= fourbar_list[0]
 # 以下可以利用 ctx 物件進行畫圖
